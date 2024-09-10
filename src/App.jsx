@@ -1,14 +1,20 @@
 import { Box } from '@chakra-ui/react'
 import Header from './components/Header'
 import Section from './components/Section'
+import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
   
 
   return (
-  <Box w="100vw" minH="100vh" fontFamily="SUSE" sans-serif >
+  <Box  fontFamily="SUSE" sans-serif >
    <Header/>
+   <Box pt="4rem" >
    <Section/>
+   <Projects/>
+   <Footer/>
+   </Box>
     </Box>
   )
 }
